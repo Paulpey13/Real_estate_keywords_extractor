@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "file_type": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    },
+    "file_name": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    }
+  },
+  "devis_facture": {
+    "presence_devis_facture": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_devis_facture": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_realisation_travaux": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "localisation_travaux": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "synthese_travaux": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "prix_travaux": {
+      "value": null,
+      "expected_type": "number",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "performances_energetiques_isolants": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "reference_equipements_cvc": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    }
+  }
+}

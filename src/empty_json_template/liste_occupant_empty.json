@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "file_type": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    },
+    "file_name": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    }
+  },
+  "occupants": {
+    "liste_detaillee_occupants": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "lien_rc_batiment_etage_typologie": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    }
+  }
+}

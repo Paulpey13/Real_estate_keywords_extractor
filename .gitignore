@@ -1,0 +1,6 @@
+*.env
+data/*
+*cmds
+mess.txt
+notes.txt
+.ocr_cache

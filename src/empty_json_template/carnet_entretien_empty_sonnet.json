@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "file_type": {
+      "value": "pdf",
+      "expected_type": "string",
+      "source": {
+        "page": null,
+        "excerpt": ""
+      }
+    },
+    "file_name": {
+      "value": "Document_10.pdf",
+      "expected_type": "string",
+      "source": {
+        "page": null,
+        "excerpt": ""
+      }
+    }
+  },
+  "carnet_entretien": {
+    "presence_carnet_entretien": {
+      "value": false,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_carnet_entretien": {
+      "value": "not found",
+      "expected_type": "date",
+      "source": {
+        "excerpt": null,
+        "page": null
+      }
+    }
+  },
+  "copropriete": {
+    "modificatifs_reglement": {
+      "value": "not found",
+      "expected_type": "list[string]",
+      "source": {
+        "excerpt": null,
+        "page": null
+      }
+    },
+    "date_construction": {
+      "value": "2009",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "Année de construction : 2009",
+        "page": 2
+      }
+    },
+    "numero_immatriculation": {
+      "value": "not found",
+      "expected_type": "string",
+      "source": {
+        "excerpt": null,
+        "page": null
+      }
+    },
+    "nombre_batiments": {
+      "value": 2,
+      "expected_type": "int",
+      "source": {
+        "excerpt": "Nbre de bâtiments : 2",
+        "page": 2
+      }
+    },
+    "nombre_etages": {
+      "value": 3,
+      "expected_type": "int",
+      "source": {
+        "excerpt": "Nbre d'étages : 3",
+        "page": 2
+      }
+    },
+    "nombre_lots": {
+      "value": 28,
+      "expected_type": "int",
+      "source": {
+        "excerpt": "Nombres de lots principaux : 12\nNombres de lots secondaires : 16",
+        "page": 6
+      }
+    },
+    "nombre_logements": {
+      "value": 12,
+      "expected_type": "int",
+      "source": {
+        "excerpt": "Nombres de lots principaux : 12",
+        "page": 6
+      }
+    }
+  },
+  "equipements_et_diagnostics": {
+    "equipements_collectifs": {
+      "value": [
+        "VMC A",
+        "VMC B",
+        "INSTALLATION SUPPORT 3 VELOS BAT A"
+      ],
+      "expected_type": "list[string]",
+      "source": {
+        "excerpt": "VMC A 17/04/2013\nVMC B 17/04/2013\nINSTALLATION SUPPORT 3 VELOS BAT A 05/05/2023 100,00 €",
+        "page": 15
+      }
+    },
+    "diagnostics_techniques": {
+      "value": [
+        "REALISATION PPPT/DPE"
+      ],
+      "expected_type": "list[string]",
+      "source": {
+        "excerpt": "REALISATION PPPT/DPE 05/05/2023 4 027,13 €",
+        "page": 16
+      }
+    },
+    "presence_amiante": {
+      "value": false,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "presence_plomb": {
+      "value": false,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    }
+  },
+  "situation_administrative": {
+    "arrete_peril_ou_insalubrite": {
+      "value": false,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "plan_sauvegarde": {
+      "value": false,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "procedures_administratives_en_cours": {
+      "value": false,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    }
+  },
+  "personnel": {
+    "presence_concierge_ou_gardien": {
+      "value": false,
+      "expected_type": "boolean",
+      "source": {
+        "page": null,
+        "excerpt": ""
+      }
+    },
+    "coordonnees_concierge_ou_gardien": {
+      "value": "not found",
+      "expected_type": "object{email:string,telephone:string}",
+      "source": {
+        "excerpt": null,
+        "page": null
+      }
+    }
+  },
+  "travaux": {
+    "travaux_votes_ag": {
+      "value": [
+        "ADAPTATION TNT BAT A",
+        "ADAPTATION TNT BAT B",
+        "VMC A",
+        "VMC B",
+        "ESPACES VERTS",
+        "RENOUVELLEMENT GRAVIER",
+        "ENTRET. PARTIES COMMUNES",
+        "GRAVIERS JARDIN COTE BAT B",
+        "REMPLACT CYLINDRE PORTILLON",
+        "REALISATION PPPT/DPE",
+        "INSTALLATION SUPPORT 3 VELOS BAT A",
+        "ENTRETIEN PARTIES COMMUNES BAT B"
+      ],
+      "expected_type": "list[string]",
+      "source": {
+        "excerpt": "ADAPTATION TNT BAT A 29/09/2010 06/06/2012\nADAPTATION TNT BAT B 29/09/2010\nVMC A 17/04/2013\nVMC B 17/04/2013\nESPACES VERTS 17/04/2013\nRENOUVELLEMENT GRAVIER 02/04/2014 750,00 € 30/04/2014\nENTRET. PARTIES COMMUNES 2018 26/04/2018\nGRAVIERS JARDIN COTE BAT B 26/04/2018\nREMPLACT CYLINDRE PORTILLON 26/04/2018\nREALISATION PPPT/DPE 05/05/2023 4 027,13 €\nINSTALLATION SUPPORT 3 VELOS BAT A 05/05/2023 100,00 €\nENTRETIEN PARTIES COMMUNES BAT B 2019 12/04/2019",
+        "page": 15
+      }
+    }
+  }
+}

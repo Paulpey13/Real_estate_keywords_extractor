@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "file_type": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    },
+    "file_name": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    }
+  },
+  "ct_ascenseur": {
+    "presence_ct": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_ct": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_controle": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "nombre_ascenseurs": {
+      "value": null,
+      "expected_type": "int",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "presence_marquage_ce": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "presence_non_conformites": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "liste_non_conformites": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "presence_observations_maintenance": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "liste_observations_maintenance": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    }
+  }
+}

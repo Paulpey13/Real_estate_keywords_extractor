@@ -1,0 +1,179 @@
+{
+    "meta": {
+      "file_type": {
+        "value": "",
+        "expected_type": "string",
+        "source": null
+      },
+      "file_name": {
+        "value": "",
+        "expected_type": "string",
+        "source": null
+      }
+    },
+    "carnet_entretien": {
+      "presence_carnet_entretien": {
+        "value": null,
+        "expected_type": "boolean",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "date_carnet_entretien": {
+        "value": "",
+        "expected_type": "date",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      }
+    },
+    "copropriete": {
+      "modificatifs_reglement": {
+        "value": [],
+        "expected_type": "list[string]",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "date_construction": {
+        "value": "",
+        "expected_type": "date",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "numero_immatriculation": {
+        "value": "",
+        "expected_type": "string",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "nombre_batiments": {
+        "value": null,
+        "expected_type": "int",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "nombre_etages": {
+        "value": null,
+        "expected_type": "int",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "nombre_lots": {
+        "value": null,
+        "expected_type": "int",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "nombre_logements": {
+        "value": null,
+        "expected_type": "int",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      }
+    },
+    "equipements_et_diagnostics": {
+      "equipements_collectifs": {
+        "value": [],
+        "expected_type": "list[string]",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "diagnostics_techniques": {
+        "value": [],
+        "expected_type": "list[string]",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "presence_amiante": {
+        "value": null,
+        "expected_type": "boolean",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "presence_plomb": {
+        "value": null,
+        "expected_type": "boolean",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      }
+    },
+    "situation_administrative": {
+      "arrete_peril_ou_insalubrite": {
+        "value": null,
+        "expected_type": "boolean",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "plan_sauvegarde": {
+        "value": null,
+        "expected_type": "boolean",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      },
+      "procedures_administratives_en_cours": {
+        "value": null,
+        "expected_type": "boolean",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      }
+    },
+    "personnel": {
+      "presence_concierge_ou_gardien": {
+        "value": null,
+        "expected_type": "boolean",
+        "source": null
+      },
+      "coordonnees_concierge_ou_gardien": {
+        "value": {
+          "email": "",
+          "telephone": ""
+        },
+        "expected_type": "object{email:string,telephone:string}",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      }
+    },
+    "travaux": {
+      "travaux_votes_ag": {
+        "value": [],
+        "expected_type": "list[string]",
+        "source": {
+          "excerpt": "",
+          "page": null
+        }
+      }
+    }
+  }
+  

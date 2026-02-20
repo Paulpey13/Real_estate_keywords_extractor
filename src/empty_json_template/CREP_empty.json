@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "file_type": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    },
+    "file_name": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    }
+  },
+  "crep": {
+    "presence_crep": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_crep": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_intervention_reperage": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "presence_revetements_classe": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "recommandation_intervention_travaux": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "liste_locaux_non_visites": {
+      "value": [],
+      "expected_type": "list[string]",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    }
+  }
+}

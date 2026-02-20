@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "file_type": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    },
+    "file_name": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    }
+  },
+  "dta": {
+    "presence_dta": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_dta": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_intervention_reperage": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "liste_localisation_materiaux_liste_a": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "liste_localisation_materiaux_liste_b": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "type_recommandations_deadlines": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "liste_locaux_non_visites": {
+      "value": [],
+      "expected_type": "list[string]",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    }
+  }
+}

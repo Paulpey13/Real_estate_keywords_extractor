@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "file_type": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    },
+    "file_name": {
+      "value": "",
+      "expected_type": "string",
+      "source": null
+    }
+  },
+  "reglement": {
+    "presence_reglement_copropriete": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_reglement_copropriete": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "batiments_existants_ou_a_construire": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_permis_construire": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_achevement_travaux": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "date_permis_demolir": {
+      "value": "",
+      "expected_type": "date",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "antecedents_batiments": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "perimetre_protection_monument": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "batiment_historique": {
+      "value": null,
+      "expected_type": "boolean",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "nombre_immeubles": {
+      "value": null,
+      "expected_type": "int",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "types_usage": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "liste_lots_par_type": {
+      "value": [],
+      "expected_type": "list[string]",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    },
+    "liste_detaillee_lots": {
+      "value": "",
+      "expected_type": "string",
+      "source": {
+        "excerpt": "",
+        "page": null
+      }
+    }
+  }
+}
