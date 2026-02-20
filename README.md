@@ -64,7 +64,7 @@ python -m src.cli_mistral <doc_type> <file_path> --output result.json
 ```
 Example:
 ```bash
-python -m src.cli_mistral carnet "docs/my_logbook.pdf" --output result_logbook.json
+python -m src.cli_mistral carnet "docs/my_logbook.pdf" --output src/output/result_logbook.json
 ```
 
 ### Gemini CLI
@@ -78,7 +78,7 @@ python -m src.cli_gemini <doc_type> <file_path> --output result.json
 
 To convert a JSON result into a styled Excel file:
 ```bash
-python -m src.json_to_excel_style result.json --output result.xlsx
+python -m src.json_to_excel_style result.json --output src/output/result.xlsx
 ```
 
 ## Project Structure
